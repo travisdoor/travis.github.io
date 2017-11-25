@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Martin Dorazil 
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal web side about programming in C, C++, C# and so on.
+  This is my personal web page about programming in C, C++, C#.
 github_username: travisdoor 
 
 # Build settings
