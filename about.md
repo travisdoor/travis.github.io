@@ -24,7 +24,7 @@ water reflections, texturing, user input, etc.
 I joined Craneballs team in 2014. I participated in the [Overkill 2](http://www.overkill2.com) development and
 Android porting of this game. I improved my programming skills in real solutions and also learned to work
 in team of great people. In 2015 we started to work on Planet Nomads open world sandbox game where we decided
-to create procedural alien environment. The Planet Nomads is created with the Unity engine and my work here was to desing
+to create procedural alien environment. The Planet Nomads was created in the Unity engine and my work here was to desing
 and implement terrain generator which takes world definitions and noise setup created by designer and than
 generates large planetary terrain based on this informations.
 
@@ -36,7 +36,7 @@ generates large planetary terrain based on this informations.
 |2014 || Raytracer renderer (C++)|
 |2013 - 2014 || Overkill 2 android porting and services (Java, C++)|
 |2014 - 2015 || Overkill 3 android porting (Java, C#, Unity)|
-|2015 - today || Planet Nomads Sandy Engine (C++, C#, Unity)|
+|2015 - today || Planet Nomads - Sandy Engine (C++, C#, Unity)|
 |2016 || Talloc memory allocator (C)|
 |2016 || Argos Game engine (C++)|
 |2017 - today || Biscuit Engine, Biscuit Object (C, C++, C#, GLSL)|
