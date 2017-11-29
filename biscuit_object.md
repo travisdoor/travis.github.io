@@ -39,7 +39,7 @@ calling "member" functions of the objects living in unmanaged scope.
 Every custom data type based on the BObject type is described by macro-generated static structures (class tables)
 containing all informations needed by the object instance during execution. The class table contains pointer to the class
 table of the base type (in most cases BObjectKlass table), information about  the object size, pointers to constructor,
-destructor and class initializer, pointer to virtual table (containing virtual method pointers) and object name
+destructor and the class initializer, pointer to the virtual table (containing virtual method pointers) and the object name
 as string.
 
 ![structure]({{ "/pics/bobject.png" | absolute_url }})
@@ -170,7 +170,7 @@ int main(int argc, const char *argv[]) {
   MyObject *obj = bo_new(MyObject, &p);
 
   /* delete object */
-  bo_delete(obj);
+  bo_unref(obj);
   obj = NULL;
 
   return 0;
