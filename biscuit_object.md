@@ -16,10 +16,10 @@ includes not only OOP tools but also exception handling system, multiple interfa
 and other features which I don't want to use so I decided to create my own object system library.
 
 ## Motivation
-- Brings object class structure to plain C.
+- Brings object class structure to the plain C.
 
 {: style="text-align: justify;"}
-- BObject is primary designed for Biscuit Engine where I want to use C# for game-play implementation
+- BObject is primary designed for the Biscuit Engine where I want to use C# for game-play implementation
 and scripting, in this case it is much easier and faster to use C where no wrappers are needed for 
 calling "member" functions of the objects living in unmanaged scope.
 
@@ -36,9 +36,9 @@ calling "member" functions of the objects living in unmanaged scope.
 ## Structure
 
 {: style="text-align: justify;"}
-Every custom data type based on BObject type is described by macro-generated static structures (class tables)
-containing all informations needed by object instance during execution. Class table contains pointer to class
-table of base type (in most cases BObjectKlass table), information about object size, pointers to constructor,
+Every custom data type based on the BObject type is described by macro-generated static structures (class tables)
+containing all informations needed by the object instance during execution. The class table contains pointer to the class
+table of the base type (in most cases BObjectKlass table), information about  the object size, pointers to constructor,
 destructor and class initializer, pointer to virtual table (containing virtual method pointers) and object name
 as string.
 
