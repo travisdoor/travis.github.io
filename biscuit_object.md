@@ -29,6 +29,11 @@ calling "member" functions of the objects living in unmanaged scope.
 - New and delete 
 - Automatic parent destructor call 
 
+## Structure
+
+
+![alt text](pics/bobject.png "Class structure")
+
 ## Other
 The Biscuit Object use check unit testing framework and it is fully tested in real solutions and
 projects.
