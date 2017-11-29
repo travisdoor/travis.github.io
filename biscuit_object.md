@@ -40,7 +40,7 @@ table of base type (in most cases BObjectKlass table), information about object 
 destructor and class initializer, pointer to virtual table (containing virtual method pointers) and object name
 as string.
 
-![My helpful screenshot]({{ "/pics/bobject.png" | absolute_url }})
+![structure]({{ "/pics/bobject.png" | absolute_url }})
 
 ### Boilerplate class definition
 
