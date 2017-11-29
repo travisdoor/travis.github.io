@@ -81,17 +81,7 @@ tfree(foo);
 foo = NULL;
 {% endhighlight %}
 
-## Other
-
-{: style="text-align: justify;"}
-Large memory chunk is preallocated on first call of tmalloc. 
-Every next allocation lives only in this preallocated space (see config.h). 
-When the allocator gets out of free space, new large block is preallocated. 
-Preallocation can be done manually using talloc_expand method.
-
-{: style="text-align: justify;"}
-Memory allocations under TALLOC_SMALL_TO (defined in talloc_config.h) are organized into pools. Call talloc_optimize to 
-free unused pools.
+## Notes 
 
 {: style="text-align: justify;"}
 Preallocated memory will never be returned to system automatically, you can use talloc_force_reset method 
