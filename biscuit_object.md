@@ -16,6 +16,8 @@ includes not only OOP tools but also exception handling system, multiple interfa
 and other features which I don't want to use so I decided to create my own object system library.
 
 ## Motivation
+- Reference counting for objects by default.
+
 - Brings object class structure to the plain C.
 
 {: style="text-align: justify;"}
@@ -29,7 +31,7 @@ calling "member" functions of the objects living in unmanaged scope.
 - Automatic construction and destruction of an object 
 - Virtual table and method overriding 
 - Runtime virtual method linking 
-- New and delete 
+- New and unref 
 - Automatic parent destructor call 
 - Reference counting and automatic resource freeing
 
@@ -92,14 +94,14 @@ and copy constructor methods which must be implemented for every type.
 virtual methods can be overridden here.
 
 {: style="text-align: justify;"}
-- Constructor is called everytime when 'bo_new' or 'bo_init' is called. 'MyObjectParams' structure
+- Constructor is called everytime when 'bo_new' is called. 'MyObjectParams' structure
 defined previously in class definition is passed here. No validity checking is done on parameter
 pack. Constructor of base can be called manually if needed.
 
 {: style="text-align: justify;"}
 - Destructor is called before object destruction. Destructors of parent type is called automatically.
 
-- Copy constructor is called when object copy is created.
+- Copy constructor is called when object is duplicated by 'bo_duplicate' method.
 
 {% highlight c %}
 /* class MyObject */
