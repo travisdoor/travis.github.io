@@ -31,7 +31,7 @@ calling "member" functions of the objects living in unmanaged scope.
 - Runtime virtual method linking 
 - New and delete 
 - Automatic parent destructor call 
-- Object creation on stack and heap
+- Reference counting and automatic resource freeing
 
 ## Structure
 
@@ -170,8 +170,7 @@ int main(int argc, const char *argv[]) {
   MyObject *obj = bo_new(MyObject, &p);
 
   /* delete object */
-  bo_unref(obj);
-  obj = NULL;
+  obj = bo_unref(obj);
 
   return 0;
 }
