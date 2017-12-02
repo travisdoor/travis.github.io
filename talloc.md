@@ -11,11 +11,11 @@ Custom thread-safe malloc implementation with pooling of small objects (~2KB) an
 allocation written in C. Source code can be found [here](https://github.com/travisdoor/talloc).
 
 {: style="text-align: justify;"}
-Talloc operates in preallocated memory block reserved on startup and returned back to system on application 
-shutdown. Due to preallocation talloc reduce calls to system memory allocation. Object smaller than 2KB (by default)
-are sorted into groups and allocated in pools (each size has it's own pool). Talloc store some meta data about
-allocated blocks this leads to higher memory consumption it is designed for better speed not less memory usage.
-It is successfully used by Sandy Engine in Planet Nomads and also every my personal project uses this allocator.
+Talloc operates in preallocated memory block reserved on startup and returned back to the system on application 
+shutdown. Due to preallocation, talloc reduces calls to the system memory allocation. Objects smaller than 2KB (by default)
+are sorted into groups and allocated in pools (each size has it's own pool). Talloc stores some meta data about
+allocated blocks, this leads to higher memory consumption it is designed for better speed not less memory usage.
+It is successfully used by the Sandy Engine in Planet Nomads and also each of my personal projects uses this allocator.
 
 ## Change log
   * 1.4.0 Add exception method setter. 
@@ -84,7 +84,8 @@ foo = NULL;
 ## Notes 
 
 {: style="text-align: justify;"}
-Preallocated memory will never be returned to system automatically, you can use talloc_force_reset method 
+Preallocated memory will never be returned to the system automatically, you can use talloc_force_reset method 
 (can be enabled in config.h) to free system memory and reset allocator to initial state (make sure that already allocated
-memory will never be used after reset). The memory will be returned back to system on application exit on most platforms.
+memory will never be used after the reset method call). The memory will be returned back to the system on application exit 
+on most platforms.
 

@@ -44,14 +44,11 @@ and improved only in my free time.
 - Scene and game level loadings
 - Error handling and error context
 
-  Biscuit engine use crash first philosophy, in most cases error causes abortion of application. Error context is 
-  concept helping to track the error.
+  Biscuit engine use crash first philosophy, in most cases error causes termination of an application. Error context is 
+  a concept helping to track the error.
 
 - Basic physics (colisions and raycasting)
 - Multiplatform support (MacOS, Linux, Windows)
-
-  Main development has been done on Mac but Linux and Windows are also supported and tested.
-
 - Unit testting
 
   Currently I'm trying to use Google test framework where it is possible.

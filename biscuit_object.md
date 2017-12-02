@@ -8,7 +8,7 @@ Current version: 1.0.0
 ## About
 
 {: style="text-align: justify;"}
-The Biscuit Object is small library in C providing object oriented features for plane C projects.
+The Biscuit Object is a small library in C providing object oriented features for plain C projects.
 It is primary designed for Biscuit game engine.
 Source code can be found [here](https://github.com/travisdoor/biscuit_object). BObject is inspired
 by [ooc](http://ooc-coding.sourceforge.net/) project created by Tibor Miseta. The original ooc
@@ -39,7 +39,7 @@ calling "member" functions of the objects living in unmanaged scope.
 
 {: style="text-align: justify;"}
 Every custom data type based on the BObject type is described by macro-generated static structures (class tables)
-containing all informations needed by the object instance during execution. The class table contains pointer to the class
+containing all information needed by the object instance during execution. The class table contains pointer to the class
 table of the base type (in most cases BObjectKlass table), information about  the object size, pointers to constructor,
 destructor and the class initializer, pointer to the virtual table (containing virtual method pointers) and the object name
 as string.
@@ -52,7 +52,7 @@ as string.
 BObject header contains macros for generating all necessary data types and structures needed by object. Class
 table definition and its global instance is created here.
 
-- First block define 'MyObject' derived from 'BObject' fallowed by list of virtual function definitions.
+- First block define 'MyObject' derived from 'BObject' followed by list of virtual function definitions.
 
 - Second block declare MyObjectParams structure later passed into object constructor.
 
@@ -94,12 +94,12 @@ and copy constructor methods which must be implemented for every type.
 virtual methods can be overridden here.
 
 {: style="text-align: justify;"}
-- Constructor is called everytime when 'bo_new' is called. 'MyObjectParams' structure
-defined previously in class definition is passed here. No validity checking is done on parameter
-pack. Constructor of base can be called manually if needed.
+- The constructor is called everytime when 'bo_new' is called. 'MyObjectParams' structure
+defined previously in the class definition is passed here. No validity checking is done on the parameter
+pack. Constructor of base type can be called manually if needed.
 
 {: style="text-align: justify;"}
-- Destructor is called before object destruction. Destructors of parent type is called automatically.
+- The destructor is called before object destruction. Destructor of parent type is called automatically.
 
 - Copy constructor is called when object is duplicated by 'bo_duplicate' method.
 
