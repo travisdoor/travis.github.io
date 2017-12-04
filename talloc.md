@@ -6,6 +6,7 @@ permalink: /talloc/
 Current version: 1.4.0
 
 ## About 
+
 {: style="text-align: justify;"}
 Custom thread-safe malloc implementation with pooling of small objects (~2KB) and fast AVL tree based best-fit memory 
 allocation written in C. Source code can be found [here](https://github.com/travisdoor/talloc).

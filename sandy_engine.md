@@ -29,6 +29,7 @@ closer to the player has more details.
 {: style="text-align: center;"}
 ![biomes]({{ "/pics/terrain.jpg" | absolute_url }})
 
+Source code of this project is not available.
 
 ## Used techniques
 - **Marching Cubes** for mesh creation. [Wiki](https://en.wikipedia.org/wiki/Marching_cubes)
