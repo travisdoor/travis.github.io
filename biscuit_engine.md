@@ -53,3 +53,14 @@ and improved only in my free time.
 
   Currently I'm trying to use Google test framework where it is possible.
 
+## Dependencies
+- thirdparty
+    - SDL2
+    - libpng
+    - freetype
+    - OpenGL
+    - json-c
+- internal
+    - biscuit model
+    - biscuit object
+    - talloc

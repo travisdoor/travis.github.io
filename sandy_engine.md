@@ -2,7 +2,7 @@
 layout: page
 title: Sandy Engine 
 permalink: /sandy-engine/
-published: false 
+published: true
 ---
 
 ## About
@@ -23,6 +23,12 @@ various set of editors and custom tools for designers.
 Round planet surface is generated in realtime when the player travel around, so speed was one of the most important things here. 
 The terrain is divided into chunks with different sizes of voxels depending on distance from the player. Terrain geometry
 closer to the player has more details.
+
+#### Final terrain in the game 
+
+{: style="text-align: center;"}
+![biomes]({{ "/pics/terrain.jpg" | absolute_url }})
+
 
 ## Used techniques
 - **Marching Cubes** for mesh creation. [Wiki](https://en.wikipedia.org/wiki/Marching_cubes)

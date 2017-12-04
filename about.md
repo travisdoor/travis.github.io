@@ -28,6 +28,9 @@ to create procedural alien environment. The Planet Nomads was created in the Uni
 and implement terrain generator which takes world definitions and noise setup created by designer and than
 generates large planetary terrain based on this information.
 
+## Skills
+C, C++, C#, Bash, CMake, Java, Objective C, GLSL
+
 ## Project timeline
 
 | Year || Project |
