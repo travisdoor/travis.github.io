@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Biscuit Engine 
-permalink: /biscuit-engine/
+title: Biscuit Language
+permalink: /biscuit-language/
 ---
 ## About
 
