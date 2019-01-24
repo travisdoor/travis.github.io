@@ -3,12 +3,12 @@ layout: page
 title: Biscuit Language
 permalink: /biscuit-language/
 ---
-## About
+## Resources
 
 {: style="text-align: justify;"}
-Simple programming language.
 
-[Documentation](bl/documentation.html)
-[Mir-Documentation](bl/MIR.html)
+* [source](https://github.com/travisdoor/bl)
+* [documentation](bl/documentation.html)
+* [mir-documentation](bl/MIR.html)
 
 
