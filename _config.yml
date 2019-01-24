@@ -20,7 +20,7 @@ github_username: travisdoor
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
