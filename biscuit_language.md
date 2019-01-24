@@ -4,8 +4,7 @@ title: Biscuit Language
 permalink: /biscuit-language/
 ---
 ## Resources
-
-{: style="text-align: justify;"}
+### 0.4.0 pre-alpha (still under development)
 
 * [source](https://github.com/travisdoor/bl)
 * [documentation](bl/documentation.html)
