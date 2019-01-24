@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Biscuit Object
 permalink: /biscuit-object/
 ---

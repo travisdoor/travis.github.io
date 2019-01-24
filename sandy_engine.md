@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Sandy Engine 
 permalink: /sandy-engine/
 published: true

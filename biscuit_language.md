@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Biscuit Language
 permalink: /biscuit-language/
 ---
