@@ -33,3 +33,8 @@ theme: minima
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
