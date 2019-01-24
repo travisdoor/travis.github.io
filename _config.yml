@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Martin Dorazil 2
+title: Martin Dorazil
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal web page about programming in C, C++, C#.
 github_username: travisdoor 
@@ -33,8 +33,3 @@ theme: minima
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
