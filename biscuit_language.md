@@ -8,3 +8,7 @@ permalink: /biscuit-language/
 {: style="text-align: justify;"}
 Simple programming language.
 
+[Documentation](bl/documentation.html)
+[Mir-Documentation](bl/MIR.html)
+
+
