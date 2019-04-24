@@ -41,5 +41,7 @@ C, C++, C#, Bash, CMake, Java, Objective C, GLSL
 |2016 | Talloc memory allocator (C)|
 |2016 | Argos Game engine (C++)|
 |2017 - 2018 | Biscuit Engine, Biscuit Object (C, C++, C#, GLSL)|
-|2018 - today | Biscuit programming language (C)|
+|2018 - present | Biscuit programming language (C)|
+|2018 - present | Biscuit programming language (C)|
 
+## Project timeline
