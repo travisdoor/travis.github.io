@@ -6,10 +6,11 @@ layout: page
 
 {: style="text-align: justify;"}
 I'm C/C++/C# programmer and musician, currently working for [Craneballs](https://www.craneballs.com)
-company as C++ engine programmer and C# tool programmer. I'm creator of the Sandy Engine - procedural planet
-generator written in C++ and used in [Planet Nomads](https://www.planet-nomads.com) sandbox game. I'm also
-interested in game engines and lower level modules used for game development. I enjoy programming in general,
-it's my hobby as well music and guitar playing.
+company as C\# developer working on Virtual Forest data visualisation in Unity Engine. 
+I'm creator of the Sandy Engine - procedural planet generator written in C++ and used in 
+[Planet Nomads](https://www.planet-nomads.com) sandbox game. I'm also interested in game 
+engines and lower level modules used for game development. I enjoy programming in general, it's 
+my hobby as well music and guitar playing.
  
 {: style="text-align: justify;"}
 I've started with programming (especially game programming) back in 2004. My first projects
@@ -41,7 +42,8 @@ C, C++, C#, Bash, CMake, Java, Objective C, GLSL
 |2016 | Talloc memory allocator (C)|
 |2016 | Argos Game engine (C++)|
 |2017 - 2018 | Biscuit Engine, Biscuit Object (C, C++, C#, GLSL)|
-|2018 - present | Biscuit programming language (C)|
+|2018 - present | [Virtual Forest](https://play.google.com/store/apps/details?id=com.storaenso.virtualforest&hl=en_US) (Unity)|
 |2018 - present | Biscuit programming language (C)|
 
-## Project timeline
+## Documents
+- [CV](docs/cv_martin_dorazil.pdf)
