@@ -34,16 +34,15 @@ C, C++, C#, Bash, CMake, Java, Objective C, GLSL
 
 | Year | Project |
 |:------|:---------|
-|2013 | RTS Game Engine (C++, GLSL)|
+|2013 | [RTS Game Engine (C++, GLSL)](travisdoor.github.io/bl)|
 |2014 | Raytracer renderer (C++)|
-|2013 - 2014 | Overkill 2 android porting and services (Java, C++)|
-|2014 - 2015 | Overkill 3 android porting (Java, C#, Unity)|
-|2015 - today | Planet Nomads - Sandy Engine (C++, C#, Unity)|
-|2016 | Talloc memory allocator (C)|
-|2016 | Argos Game engine (C++)|
+|2013 - 2014 | [Overkill 2 android porting and services (Java, C++)](https://en.wikipedia.org/wiki/Overkill_2)|
+|2014 - 2015 | [Overkill 3 android porting (Java, C#, Unity)](http://www.overkill3.com)|
+|2015 - today | [Planet Nomads - Sandy Engine (C++, C#, Unity)](https://www.planet-nomads.com)|
+|2016 | [Talloc memory allocator (C)](https://github.com/travisdoor/talloc)|
 |2017 - 2018 | Biscuit Engine, Biscuit Object (C, C++, C#, GLSL)|
-|2018 - present | [Virtual Forest](https://play.google.com/store/apps/details?id=com.storaenso.virtualforest&hl=en_US) (Unity)|
-|2018 - present | Biscuit programming language (C)|
+|2018 - present | [Virtual Forest (C#, Unity)](https://play.google.com/store/apps/details?id=com.storaenso.virtualforest&hl=en_US)|
+|2018 - present | [Biscuit programming language (C)](http://biscuitlang.org)|
 
 ## Documents
 - [CV](docs/cv_martin_dorazil.pdf)
