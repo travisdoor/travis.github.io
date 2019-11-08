@@ -27,6 +27,12 @@ to create procedural alien environment. The Planet Nomads was created in the Uni
 and implement terrain generator which takes world definitions and noise setup created by designer and than
 generates large planetary terrain based on this information.
 
+{: style="text-align: justify;"}
+Even though I'm mostly interested in game development, I'm also enjoying programming languages and it's internals, desing and compilers
+so I started programming my own compiler in 2018 as a side project. First idea was to create just a simple frontend translating custom
+code into C language, but after few years of development I've ended with fully usable programming language called [Biscuit](http://biscuitlang.org)
+using LLVM backend. This language is not complete yet and it's still under development.
+
 ## Skills
 C, C++, C#, Bash, CMake, Java, Objective C, GLSL
 
