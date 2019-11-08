@@ -34,7 +34,7 @@ C, C++, C#, Bash, CMake, Java, Objective C, GLSL
 
 | Year | Project |
 |:------|:---------|
-|2013 | [RTS Game Engine (C++, GLSL)](travisdoor.github.io/bl)|
+|2013 | [RTS Game Engine (C++, GLSL)](https://youtu.be/JnqfQBYx5SA)|
 |2014 | Raytracer renderer (C++)|
 |2013 - 2014 | [Overkill 2 android porting and services (Java, C++)](https://en.wikipedia.org/wiki/Overkill_2)|
 |2014 - 2015 | [Overkill 3 android porting (Java, C#, Unity)](http://www.overkill3.com)|
